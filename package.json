@@ -1,7 +1,8 @@
 {
-  "name": "whistle",
+  "name": "@js-core/whistle",
   "description": "HTTP, HTTP2, HTTPS, Websocket debugging proxy",
-  "version": "2.5.29",
+  "fork-version": "2.5.29",
+  "version": "0.0.2",
   "dataDirname": ".whistle",
   "localUIHost": "local.whistlejs.com",
   "port": 8899,

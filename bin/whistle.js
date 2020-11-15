@@ -114,7 +114,8 @@ program
   .option('--no-global-plugins', 'do not load any globally installed plugins')
   .option('--no-prev-options', 'do not reuse the previous options when restarting')
   .option('--inspect [[host:]port]', 'activate inspector on host:port (127.0.0.1:9229 by default)')
-  .option('--inspectBrk [[host:]port]', 'activate inspector on host:port and break at start of user script (127.0.0.1:9229 by default)');
+  .option('--inspectBrk [[host:]port]', 'activate inspector on host:port and break at start of user script (127.0.0.1:9229 by default)')
+  .option('--subscriber [filePath]', 'subscriber file path');
 
 var argv = process.argv;
 var cmd = argv[2];
