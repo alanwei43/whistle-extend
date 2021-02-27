@@ -65,3 +65,5 @@ _book
 dist
 /.history
 test/storage/.whistle
+
+subscriber.js
