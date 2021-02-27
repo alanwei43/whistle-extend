@@ -14,9 +14,20 @@ npx w2 start --baseDir ./storage --port 3210 --certDir ./cert # 启动代理
 `subscriber.js`文件内容如下
 
 ```js
-module.exports = function({config, req, res, data}) {
-	// your code
+module.exports = {
+  /**
+   * 接收HTTP请求
+   */
+  onHttp: function ({ req, res, proxy, data }) { },
+  /**
+   * 客户端向服务器发送 WebSocket 数据
+   */
+  onSendWebSocket: function ({ bin }) { },
+  /**
+   * 服务器向客户端发送 WebSocket 数据
+   */
+  onReceiveWebSocket: function ({ bin }) { }
 }
 ```
 
-如果是程序访问可以参考文件: `test/subscriber-test.js` .
+如果是程序编码实现可以参考文件: `test/subscriber-test.js` .
