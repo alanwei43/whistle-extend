@@ -10,7 +10,8 @@ w2({
     'baseDir': path.join(dir, 'test', 'storage'),
     'copy': true,
     'certDir': path.join(dir, 'test', 'storage', 'certs'),
-    'subscriber': "subscriber.js"
+    'subscriber': "subscriber.js",
+    "mode": "capture|classic",
 }, function () {
     console.log(`access http://localhost:${PORT}`);
 });
