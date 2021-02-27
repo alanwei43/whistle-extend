@@ -9,7 +9,7 @@ mkdir whistle-test # 创建一个目录
 cd whistle-test # 进入到目录
 npm init -y # 初始化一个项目
 npm install whistle-extend # 执行安装
-touch subscriber.js # 项目根目录创建名为 subscriber.js 的文件, 如果文件存在于其他地方, 可以
+touch subscriber.js # 项目根目录创建名为 subscriber.js 的文件(文件要存在项目根目录下)
 ```
 
 ## 命令行启动
@@ -38,9 +38,7 @@ w2({
 });
 ```
 
-注意上述代码里的 mode 参数可选值参考 https://wproxy.org/whistle/options.html:
-
-`w2 start[run] -M mode`： 设置 whistle 启动模式，同时设置多个用 `|` 分隔开，如 `-M "pureProxy|debug|multiEnv|capture|disableH2|network|rules|plugins"`
+注意上述代码里的 `mode` 参数用于设置 Whistle 启动模式, 同时设置多个用 `|` 分隔开，如 `-M "pureProxy|debug|multiEnv|capture|disableH2|network|rules|plugins"`, 可选值参考 [命令行参数](https://wproxy.org/whistle/options.html)(命令行模式为: `w2 start[run] -M mode`): 
 
 * `pureProxy`： 纯代理模式，对一些内置界面域名 local.whistlejs.com 也当初普通请求
 * `debug`： 调试模式，会禁用一些超时设置及 dnsCache（不建议使用）

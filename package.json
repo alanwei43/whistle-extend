@@ -2,7 +2,7 @@
   "name": "whistle-extend",
   "description": "HTTP, HTTP2, HTTPS, Websocket debugging proxy",
   "fork-version": "2.5.29",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dataDirname": ".whistle",
   "localUIHost": "local.whistlejs.com",
   "port": 8899,
@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/avwo/whistle/issues"
   },
-  "homepage": "https://github.com/avwo/whistle",
+  "homepage": "https://github.com/alanwei43/whistle-extend",
   "keywords": [
     "proxy",
     "fiddler",
