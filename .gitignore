@@ -67,3 +67,4 @@ dist
 test/storage/.whistle
 
 subscriber.js
+logs/

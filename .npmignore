@@ -66,3 +66,6 @@ assets/launcher
 
 # Coveralls
 coverage
+
+dist/
+logs/

@@ -67,10 +67,16 @@ module.exports = {
   /**
    * 客户端向服务器发送 WebSocket 数据
    */
-  onSendWebSocket: function ({ bin }) { },
+  onSendWebSocket: function ({ frame, error, extend }) { 
+    // frame: { reqId, frameId, bin, length }
+    // extend: { data, opts }
+  },
   /**
    * 服务器向客户端发送 WebSocket 数据
    */
-  onReceiveWebSocket: function ({ bin }) { }
+  onReceiveWebSocket: function ({ frame, error, extend }) { 
+    // frame: { reqId, frameId, bin, length }
+    // extend: { data, opts }
+  }
 }
 ```
