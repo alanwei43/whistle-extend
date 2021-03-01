@@ -3,7 +3,7 @@
 const w2 = require('../index');
 const path = require('path');
 
-const PORT = 3210;
+const PORT = 3056;
 const dir = process.cwd();
 w2({
     'port': PORT,

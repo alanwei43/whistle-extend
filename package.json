@@ -2,7 +2,7 @@
   "name": "whistle-extend",
   "description": "HTTP, HTTP2, HTTPS, Websocket debugging proxy",
   "fork-version": "2.5.29",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "dataDirname": ".whistle",
   "localUIHost": "local.whistlejs.com",
   "port": 8899,
@@ -11,6 +11,7 @@
   "author": "avenwu <avenwu@vip.qq.com>",
   "contributors": [],
   "license": "MIT",
+  "typings": "index.d.ts",
   "bugs": {
     "url": "https://github.com/avwo/whistle/issues"
   },
