@@ -9,7 +9,7 @@ mkdir whistle-test # 创建一个目录
 cd whistle-test # 进入到目录
 npm init -y # 初始化一个项目
 npm install whistle-extend # 执行安装
-touch subscriber.js # 项目根目录创建名为 subscriber.js 的文件(文件要存在项目根目录下)
+touch subscriber.js # 项目根目录创建名为 subscriber.js 的文件(可以传递 subscriber 参数控制路径)
 ```
 
 ## 命令行启动
