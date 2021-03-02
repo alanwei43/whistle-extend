@@ -1,6 +1,7 @@
 require('./lib/util/patch');
 var net = require('net');
 var tls = require('tls');
+var subscriber = require("./lib/subscriber-bridge");
 
 var ver = process.version.substring(1).split('.');
 var PROD_RE = /(^|\|)prod(uction)?($|\|)/;
@@ -81,5 +82,6 @@ module.exports = function(options, callback) {
     }
   }
   require('./lib/config').extend(options);
+  subscriber.initSubscribeModule();
   return require('./lib')(callback);
 };

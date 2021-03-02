@@ -18,10 +18,10 @@
         "react"
     ],
     "rules": {
-        "indent": [
-            "error",
-            2
-        ],
+        // "indent": [
+        //     "error",
+        //     2
+        // ],
         "react/prop-types": 0,
         "react/no-direct-mutation-state": 0,
         "linebreak-style": [
@@ -32,10 +32,10 @@
             "error",
             "single"
         ],
-        "semi": [
-            "error",
-            "always"
-        ],
+        // "semi": [
+        //     "error",
+        //     "always"
+        // ],
         "no-unused-vars": [
           "error",
           {
