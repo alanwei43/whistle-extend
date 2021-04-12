@@ -2,7 +2,7 @@
   "name": "whistle-extend",
   "description": "HTTP, HTTP2, HTTPS, Websocket debugging proxy",
   "fork-version": "2.5.29",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "dataDirname": ".whistle",
   "localUIHost": "local.whistlejs.com",
   "port": 8899,
